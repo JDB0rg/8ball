@@ -35,6 +35,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11E96667213EEC410097DC31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11FDB4E4213EE7A7001DE533 /* AppDelegate.swift */,
+				11FDB4EB213EE7AA001DE533 /* Assets.xcassets */,
+				11FDB4ED213EE7AA001DE533 /* LaunchScreen.storyboard */,
+				11FDB4F0213EE7AA001DE533 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11E96668213EEC550097DC31 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11FDB4E6213EE7A7001DE533 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		11FDB4D8213EE7A7001DE533 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +73,9 @@
 		11FDB4E3213EE7A7001DE533 /* 8ball */ = {
 			isa = PBXGroup;
 			children = (
-				11FDB4E4213EE7A7001DE533 /* AppDelegate.swift */,
-				11FDB4E6213EE7A7001DE533 /* ViewController.swift */,
+				11E96668213EEC550097DC31 /* View Controllers */,
 				11FDB4E8213EE7A7001DE533 /* Main.storyboard */,
-				11FDB4EB213EE7AA001DE533 /* Assets.xcassets */,
-				11FDB4ED213EE7AA001DE533 /* LaunchScreen.storyboard */,
-				11FDB4F0213EE7AA001DE533 /* Info.plist */,
+				11E96667213EEC410097DC31 /* Resources */,
 			);
 			path = 8ball;
 			sourceTree = "<group>";
@@ -281,7 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = 8ball/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/8ball/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = 8ball/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/8ball/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
